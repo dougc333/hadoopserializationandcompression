@@ -1,0 +1,20 @@
+6/24/11
+
+Added class TestWritable.java shows performance difference of Writable vs. Java
+Serialization
+
+First: Java Serialiation showing 399 bytes for Objects Address and TestObject. TestObject contains Object Address giving you a minimal object graph. 
+Second; Writable showing 64 bytes of storage for AddressWritable and TestObjectWritable which are writable versions of Address and TestObject
+Third: serializing the AddressWritable and TestObjectWritable using std. Java streams shows 434 bytes vs. 64 bytes. 
+
+These are for fake objects, real objects would be have a bigger difference. 
+
+To run this class
+ant clean; ant
+bin/nutch org.apache.nutch.scoring.webgraph.TestWritable
+
+To install: just copy the files TestWritable.java, Address.java, AddressWritable.java, TestObject.java into the org.apache.nutch.scoring.webgraph directory in the nutch source code directory
+
+which is under apache-nutch-1.2
+
+
