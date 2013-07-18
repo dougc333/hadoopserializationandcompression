@@ -1,4 +1,4 @@
-package org.apache.nutch.scoring.webgraph;
+//package org.apache.nutch.scoring.webgraph;
 
 public class Address implements java.io.Serializable{
 	private int housenum;

@@ -1,4 +1,4 @@
-package org.apache.nutch.scoring.webgraph;
+//package org.apache.nutch.scoring.webgraph;
 
 public class TestObject implements java.io.Serializable{
 	String name;

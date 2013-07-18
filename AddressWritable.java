@@ -1,4 +1,4 @@
-package org.apache.nutch.scoring.webgraph;
+//package org.apache.nutch.scoring.webgraph;
 
 import java.io.DataInput;
 import java.io.DataOutput;
